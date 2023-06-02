@@ -1,0 +1,57 @@
+
+#container{font-family: 'Hanken Grotesk', sans-serif;}
+
+.box1{border:1px white solid;background-image:linear-gradient(#7347f8,#2e2be9);border-radius: 30px;
+     width:370px; height: 450px;text-align: center;}
+.b11 p{color:hsla(241, 100%, 89%,1.0);font-size: 18px;padding-top: 25px;}
+.b12{width: 150px;height: 150px;border-radius: 50%;margin-left: 30%; background-image: radial-gradient(circle,#4c23c9,#4734f0,#533af6);}
+h1{color: white;padding-top: 20px;display: block;font-size: 50px;}
+.b12 p{color: #887aff;line-height: 1.0px;font-size: 18px;}
+.b13{padding:15px 20px 5px ;} 
+.b13 span{color: #dce1ec; font-size: 25px;}
+.b13 p{color:#c8c7ff ;font-size: 18px;}
+
+.box2{background-color: whitesmoke;
+    width:370px;height:450px;}
+.right p{font-size:14px}
+.right span{font-weight: bold;}
+.right p{font-weight:100;}
+.b21 p{text-align: left;padding-left: 20px;font-size:18px;padding-top: 25px;}
+.Reaction,.Memory,.Verbal,.Visual{border:0px black solid;border-radius: 10px ;margin: 10px 20px;padding:17px;}
+.Reaction *{display: inline;}
+.Memory *{display: inline;}
+.Verbal *{display: inline;}
+.Visual *{display: inline;}
+.left{float: left;width: 50%; font-size: 18px;}
+.left >img {float: left;width: 20%;}
+h5{width:29%}
+.right{float: right;}
+.Reaction{background-color: #fff6f5;height: 25px;}
+.Memory{background-color: #fffbf2;height: 25px;}
+.Verbal{background-color: #f2fbfa;height: 25px;}
+.Visual{background-color: #f3f3fd;height: 25px;}
+.Reaction h5{color:hsl(0, 100%, 67%);}
+.Memory h5{color:hsl(39, 100%, 56%)}
+.Verbal h5{color:hsl(166, 100%, 37%)}
+.Visual h5{color:hsl(234, 85%, 45%)}
+.b22{text-align: center;color:#f9ffff;border: 0px solid #303b59;border-radius: 50px;background-color:#303b59;
+    height:35px;padding: 15px 10px 10px;margin: 15px 15px 0px ;}
+.b22:hover{background-color:#303b59ec ;}
+
+
+@media screen and (max-width:370px) {
+    .box1,.box2{display: inline-block}
+
+}
+
+@media only screen and (min-width:371px){
+    body{width:100vw;}
+    .container{width: 90vw;}
+    .box1, .box2{display: inline-block;margin-top: 20vh;stroke: #dee6f9;}
+    .box1{position: relative; top: -3vh;
+            }
+    .box2{border-bottom-right-radius: 30px;border-top-right-radius: 30px;
+            ;}
+    
+}
+
